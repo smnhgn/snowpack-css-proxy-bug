@@ -1,0 +1,24 @@
+{
+  "name": "snowpack-css-proxy-bug",
+  "version": "1.0.0",
+  "description": "example repo to demonstrate snowpack bug with css proxy files",
+  "main": "index.js",
+  "scripts": {
+    "dev": "snowpack build --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smnhgn/snowpack-css-proxy-bug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smnhgn/snowpack-css-proxy-bug/issues"
+  },
+  "homepage": "https://github.com/smnhgn/snowpack-css-proxy-bug#readme",
+  "devDependencies": {
+    "@snowpack/plugin-sass": "^1.4.0",
+    "snowpack": "^3.8.8"
+  }
+}
